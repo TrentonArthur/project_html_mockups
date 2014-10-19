@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>DailyCal - Login</title>
+
+  <!-- Adds Bootswatch CSS  -->
+  <link rel="stylesheet" type="text/css" href="http://maxcdn.bootstrapcdn.com/bootswatch/3.2.0/paper/bootstrap.min.css">
+
+  <!-- Adds Font Awesome -->
+  <link rel="stylesheet" type="text/css" href="http://maxcdn.bootstrapcdn.com/font-awesome/4.2.0/css/font-awesome.min.css">
+    <!-- Adds Bootstrap Javascript -->
+  <script src="http://code.jquery.com/jquery-1.11.0.min.js"></script>
+  <script src="http://code.jquery.com/jquery-migrate-1.2.1.min.js"></script>
+  <script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/js/bootstrap.min.js"></script>
+
+  <!-- Add Custom styles -->
+   <link rel="stylesheet" type="text/css" href="calendar_styles.css">
+
+<!--   <link rel="stylesheet" type="text/css" href="bootstrap.css"> -->
+</head>
+<body>
+  <div class="container">
+
+<div class="row">
+  <div class="col-md-12">
+    <div class="jumbotron">
+      <h1>Welcome to DailyCal</h1>
+      <h3>If You Don't Write It Down It Didn't Happen</h3>
+    </div>
+
+  </div>
+
+</div>
+
+<div class="row row-center">
+  <div class="col-md-4">
+      <h2>Login</h2>
+         <form class="form-horizontal" role="form">
+        <div class="form-group">
+          <label for="inputEmail3" class="col-sm-2 control-label">Email</label>
+          <div class="col-sm-10">
+            <input type="email" class="form-control" id="inputEmail3" placeholder="Email">
+          </div>
+        </div>
+        <div class="form-group">
+          <label for="inputPassword3" class="col-sm-2 control-label">Password</label>
+          <div class="col-sm-10">
+            <input type="password" class="form-control" id="inputPassword3" placeholder="Password">
+          </div>
+        </div>
+        <div class="form-group">
+          <div class="col-sm-offset-2 col-sm-10">
+            <div class="checkbox">
+              <label>
+                <input type="checkbox"> Remember me
+              </label>
+            </div>
+          </div>
+        </div>
+        <div class="form-group">
+          <div class="col-sm-offset-2 col-sm-10">
+            <button type="submit" class="btn btn-default">Sign in</button>
+          </div>
+        </div>
+      </form>
+  </div>
+</div>
+
+<div class="row">
+     <div class="col-md-4">
+       <h2>Sign-Up </h2>
+
+      <div class="container">
+           <label for "lastName">
+              Enter your First Name:
+           </label>
+           <input type="text" id="firstName" name="firstName" value="" maxlength="50" size="20" autofocus="";>
+        </div>
+
+          <div class="container">
+           <label for "lastName">
+              Enter Your Last Name:
+           </label>
+           <input type="text" id="lastName" name="lastName" value="" maxlength="50" size="20" autofocus="";>
+        </div>
+
+      <div class="container">
+           <label for "email">
+              Enter Your e-mail:
+           </label>
+           <input type="text" id="email" name="email" value="" maxlength="50" size="20" autofocus="";>
+        </div>
+
+       <div class="container">
+           <label for "username">
+              Choose a username:
+           </label>
+           <input type="text" id="newusername" name="newusername" value="" maxlength="50" size="20" autofocus="";>
+        </div>
+
+     <div class="container">
+       <label for "password">
+          Choose your password:
+       </label>
+       <input type="text" id="newpassword" name="newpassword" value="" maxlength="50" size="20" autofocus="";>
+
+
+     </div>
+     <div class="col-sm-offset-2 col-sm-10">
+       <button type="submit" class="btn btn-default">Sign Up</button>
+     </div>
+
+   </div>
+</div>
+
+
+
+  </div>
+</body>
+</html>
